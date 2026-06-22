@@ -27,41 +27,86 @@ This documentation provides detailed information about the hardware architecture
 | Camera           | USB Camera (icspring camera)   |
 | Drive System     | Mecanum Wheels                 |
 | Servo Controller | Hiwonder Servo Expansion Board |
-| Storage          | microSD Card                   |
-| External Storage | USB Flash Drive                |
+| Storage          | microSD Card (32GB)                   |
+| External Storage | USB Flash Drive (32GB)             |
 
 ## System Architecture
 
 Camera → Vision Processing → Decision Module → Motion Controller → Motors/Servos
 
-## Current Development Status
-
-* [x] Robot assembly completed
-* [x] Camera detection verified
-* [x] USB storage configured
-* [ ] Dataset collection pipeline
-* [ ] Object detection integration
-* [ ] Autonomous navigation
-
 ## Repository Structure
-
+ Tree of TurboPi
 ```text
-TurboPi/
+/home/pi/TurboPi
+├── CameraCalibration
+│   ├── calibration_board.jpg
+│   ├── CalibrationConfig.py
+│   ├── calibration_images
+│   ├── calibration_param.npz
+│   ├── Calibration.py
+│   ├── CollectCalibrationPicture.py
+│   ├── GenerateCalibrationPlate.py
+│   ├── __pycache__
+│   ├── README.txt
+│   └── TestCalibration.py
 ├── Camera.py
-├── CameraCalibration/
-├── Functions/
-├── Dataset/
-├── Documentation/
-└── Examples/
+├── Functions
+│   ├── Avoidance.py
+│   ├── ColorDetect.py
+│   ├── ColorTracking.py
+│   ├── ColorWarning.py
+│   ├── EmptyFunc.py
+│   ├── FaceTracking.py
+│   ├── GestureRecognition.py
+│   ├── ImgAddText.py
+│   ├── lab_adjust.py
+│   ├── LineFollower.py
+│   ├── __pycache__
+│   ├── QuickMark.py
+│   ├── RemoteControl.py
+│   ├── Running.py
+│   └── VisualPatrol.py
+├── HiwonderSDK
+│   ├── Board.py
+│   ├── BuzzerControlDemo.py
+│   ├── FourInfrared.py
+│   ├── hardware_test.py
+│   ├── mecanum.py
+│   ├── Misc.py
+│   ├── MotorControlDemo.py
+│   ├── PID.py
+│   ├── PWMServoControlDemo.py
+│   ├── __pycache__
+│   ├── RGBControlDemo.py
+│   └── Sonar.py
+├── lab_config.yaml
+├── MecanumControl
+│   ├── Car_Drifting_Demo.py
+│   ├── Car_Forward_Demo.py
+│   ├── Car_Move_Demo.py
+│   ├── Car_Slant_Demo.py
+│   └── Car_Turn_Demo.py
+├── MjpgServer.py
+├── __pycache__
+│   ├── Camera.cpython-39.pyc
+│   ├── MjpgServer.cpython-39.pyc
+│   ├── RPCServer.cpython-39.pyc
+│   └── yaml_handle.cpython-39.pyc
+├── RPCServer.py
+├── servo_config.yaml
+├── TurboPi.py
+└── yaml_handle.py
 ```
 
 ## Quick Start
 
 1. Power on TurboPi.
-2. Connect via SSH.
-3. Verify camera connection.
-4. Launch control software.
-5. Test movement and camera stream.
+2. Connect via SSH -> ssh pi@192.168.0.102
+3. Make sure to connect it to the ethernet
+4. Check if Pendrive is connected
+5. Verify camera connection.
+6. Launch control software.
+7. Test movement and camera stream.
 
 ## Documentation Sections
 
