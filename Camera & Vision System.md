@@ -1,10 +1,14 @@
-# Camera Hardware Specifications -
+# Camera Specifications -
+    Camera Name- ICSpring camera 
+    Driver - USB Video Class
     CSI camera integrated into a 2-DOF (Degrees of Freedom) pan-tilt mount
     camera uses OmniVision or Sony IMX sensor.
+    Resolution - 640 × 480 
     Detect a specific color and trigger an alert.
     Execute predefined robot actions based on recognized colors.
     Display the position of detected objects.
     Track a selected target using pan-tilt and chassis control. 
+    YUVY pixel format,it groups 2 pixels into 4 byte sequence
 
 ### Single Color Recognition (Color Warning) -
       When the target color is detected:
