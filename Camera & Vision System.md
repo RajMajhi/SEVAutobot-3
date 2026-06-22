@@ -1,6 +1,6 @@
 # Camera Hardware Specifications -
     CSI camera integrated into a 2-DOF (Degrees of Freedom) pan-tilt mount
-    it uses OmniVision or Sony IMX sensor.
+    camera uses OmniVision or Sony IMX sensor.
     Detect a specific color and trigger an alert.
     Execute predefined robot actions based on recognized colors.
     Display the position of detected objects.
@@ -11,9 +11,20 @@
       Draw a circle around the object.
       Display the detected color name.
       Activate the buzzer. 
+      
 ### Color Recognition -
 |   Color  |  RGB LED | Buzzer | Robot Motion |
 |----------|----------|--------|--------------|
 |    Red   |   Red    |  Beep  |     Nod      |
 |   Green  |  Green   |  Beep  |  Shake Head  |
 |    Blue  |   Blue   |  Beep  |  Shake Head  |
+
+### Color Position Recognition -
+      Detect colored objects and report their image coordinates
+      For each detected object:
+           Draw a bounding circle 
+           Display its center coordinates 
+           Show the processed image in real time
+
+### Target Tracking - 
+        
