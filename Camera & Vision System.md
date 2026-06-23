@@ -7,6 +7,7 @@
     Driver - USB Video Class
     CSI camera integrated into a 2-DOF (Degrees of Freedom) pan-tilt mount
     Integrated OmniVision or Sony IMX sensor - Glowy Ultrasonic Sensor.
+    It has fixed focal length of 2.1 mm
     
 ```bash
 v412-ctl --all
