@@ -57,6 +57,16 @@ v412-ctl --list-formats-ext
       The system analyzes each camera frame to locate the target. If the target is not centered, it calculates how far it has moved and sends commands to the pan-tilt servos and the robot wheels to keep the target in view.
 
 
-
-
-
+## Vision Control -
+      Gaussian blur reduces the image noise and helps improve detection stability 
+      LAB separates brightness from color information, making color detection more reliable under varying illumination.
+      Binary mask is an image where matching pixels are white and all other pixels are black.
+      Morphological Operations - remove noise regions and fill gaps 
+      To reduce offset Tracking error is used for converting into servo.
+#### Example - 
+      The camera sees a green ball on the left side of the image.
+      The vision algorithm detects the ball and calculates its center.
+      Since the ball is left of center, the controller commands the camera or robot to move left.
+      When the ball reaches the center of the image, the movement stops or is reduced to maintain alignment.
+      
+  
