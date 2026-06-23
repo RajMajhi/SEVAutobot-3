@@ -53,7 +53,7 @@ v412-ctl --list-formats-ext
            Show the processed image in real time
   
 ## Target Tracking - 
-      By processing frame-by-frame visual data, the system dynamically calculates error vectors and translates them into motor commands for both the 2-DOF pan-tilt mechanism and the robot chassis.      
+      The system analyzes each camera frame to locate the target. If the target is not centered, it calculates how far it has moved and sends commands to the pan-tilt servos and the robot wheels to keep the target in view.
 
 
 
