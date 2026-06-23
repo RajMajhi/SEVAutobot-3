@@ -5,7 +5,6 @@
     Camera Name- ICSpring camera 
     Lens type - Fixed focus M12 plastic lens
     CSI camera integrated into a 2-DOF (Degrees of Freedom) pan-tilt mount
-    Integrated OmniVision or Sony IMX sensor - Glowy Ultrasonic Sensor.
     It has fixed focal length of 2.1 mm
     Field of View - 120° wide angle 
     
@@ -19,7 +18,7 @@ v412-ctl --all
     YUVY pixel format,it groups 2 pixels into 4 byte sequence
     Size of one image [one frame] 640×480×2 = 614,400 (~600 kb) then for 30fps 614,400×30 = 18,432,000 bytes/second (~18.4Mbps) 
     Rec 709 Transfer function - used to converts raw light into digital data    
-    
+    Integrated OmniVision or Sony IMX sensor - Glowy Ultrasonic Sensor.
 ```bash
 v412-ctl --list-formats-ext
 ```
