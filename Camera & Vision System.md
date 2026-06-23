@@ -31,29 +31,29 @@ v412-ctl --list-formats-ext
      
 
 
-### Single Color Recognition (Color Warning) -
+## Single Color Recognition (Color Warning) -
 
       When the target color is detected:
       Draw a circle around the object.
       Display the detected color name.
       Activate the buzzer. 
 
-      
-### Color Recognition -
+  ## Color Recognition -
 |   Color  |  RGB LED | Buzzer | Robot Motion |
 |----------|----------|--------|--------------|
 |    Red   |   Red    |  Beep  |     Nod      |
 |   Green  |  Green   |  Beep  |  Shake Head  |
 |    Blue  |   Blue   |  Beep  |  Shake Head  |
 
-### Color Position Recognition -
+## Color Position Recognition -
       Detect colored objects and report their image coordinates
       For each detected object:
            Draw a bounding circle 
            Display its center coordinates 
            Show the processed image in real time
-
-### Target Tracking - 
+  
+## Target Tracking - 
+      By processing frame-by-frame visual data, the system dynamically calculates error vectors and translates them into motor commands for both the 2-DOF pan-tilt mechanism and the robot chassis.      
 
 
 
