@@ -7,7 +7,12 @@
     Driver - USB Video Class
     CSI camera integrated into a 2-DOF (Degrees of Freedom) pan-tilt mount
     Integrated OmniVision or Sony IMX sensor - Glowy Ultrasonic Sensor.
-   
+    
+```bash
+v412-ctl --all
+```
+ <img width="436" height="461" alt="Screenshot 2026-06-23 102157" src="https://github.com/user-attachments/assets/1f47952c-1bf2-443a-bd77-26800a32f423" />
+  
   ## Video Capture specifications
     Resolution - 640 × 480 - 5,10,15,20,25,30 are supported framerates.
     YUVY pixel format,it groups 2 pixels into 4 byte sequence
