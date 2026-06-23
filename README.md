@@ -1,5 +1,5 @@
-### TurboPi Documentation
-# Hiwonder TurboPi Raspberry Pi Robot Car ROS2 with Mecanum Wheels, AI Vision & Tracking, Multimodal Large AI Model ChatGPT / Gemini / Grok / Llama, and Voice Interaction
+# TurboPi Documentation
+### Hiwonder TurboPi Raspberry Pi Robot Car ROS2 with Mecanum Wheels, AI Vision & Tracking, Multimodal Large AI Model ChatGPT / Gemini / Grok / Llama, and Voice Interaction
 <img width="1196" height="809" alt="image0" src="https://github.com/user-attachments/assets/2d7a6352-3fe6-4097-8b94-9b8537b70dd1" />
 
 ## Overview
@@ -35,21 +35,22 @@ This documentation provides detailed information about the hardware architecture
 Camera → Vision Processing → Decision Module → Motion Controller → Motors/Servos
 
 ## Repository Structure
- Tree of TurboPi
+ 
 ```text
-/home/pi/TurboPi
-├── CameraCalibration
-│   ├── calibration_board.jpg
-│   ├── CalibrationConfig.py
-│   ├── calibration_images
-│   ├── calibration_param.npz
-│   ├── Calibration.py
-│   ├── CollectCalibrationPicture.py
-│   ├── GenerateCalibrationPlate.py
-│   ├── __pycache__
-│   ├── README.txt
-│   └── TestCalibration.py
-├── Camera.py
+/Turbopi-IIT-Tirupati/
+├── LOGS
+│   ├── EXTRAS.md
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│   └── 
+├── ROS
+|   ├── Communication Architecture 
 ├── Functions
 │   ├── Avoidance.py
 │   ├── ColorDetect.py
@@ -101,12 +102,20 @@ Camera → Vision Processing → Decision Module → Motion Controller → Motor
 ## Quick Start
 
 1. Power on TurboPi.
-2. Connect via SSH -> ssh pi@192.168.0.102
-3. Make sure to connect it to the ethernet
-4. Check if Pendrive is connected
-5. Verify camera connection.
-6. Launch control software.
-7. Test movement and camera stream.
+   1.1. Check all the lights are on like shown in the image.
+   1.2. Also wait till you hear a beep sound (The 1x beep sound means Raspberry pi OS is booted) 
+
+
+2. Make sure to connect it to the ethernet
+   2.1 Check whether you see green and yellow lights ON or FLICKERING if it's not means it is not connected.
+   2.2
+
+3. Connect via SSH -> ssh pi@192.168.0.102 (Refer Software Setup.md)
+    
+5. Check if Pendrive is connected
+6. Verify camera connection.
+7. Launch control software.
+8. Test movement and camera stream.
 
 ## Documentation Sections
 
