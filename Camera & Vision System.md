@@ -1,4 +1,6 @@
 # Camera Specifications -
+<img width="1200" height="800" alt="12dad121-ba00-4121-873c-3d10abc13207_HQ+CS-M12-f86075e0" src="https://github.com/user-attachments/assets/3626da98-dda4-46da-8a8b-47aabfe599a0" />
+*Image source: Official Raspberrypi website. © Respective owner. Used for documentation purposes.*
 
   ## Hardware -
   
@@ -68,4 +70,5 @@ v412-ctl --list-formats-ext
       Since the ball is left of center, the controller commands the camera or robot to move left.
       When the ball reaches the center of the image, the movement stops or is reduced to maintain alignment.
       
-  
+      
+
