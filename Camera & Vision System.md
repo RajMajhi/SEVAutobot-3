@@ -1,5 +1,5 @@
 # Camera Specifications -
-<img width="600" height="300" alt="12dad121-ba00-4121-873c-3d10abc13207_HQ+CS-M12-f86075e0" src="https://github.com/user-attachments/assets/3626da98-dda4-46da-8a8b-47aabfe599a0" />
+<img width="400" height="200" alt="12dad121-ba00-4121-873c-3d10abc13207_HQ+CS-M12-f86075e0" src="https://github.com/user-attachments/assets/3626da98-dda4-46da-8a8b-47aabfe599a0" />
 
 *Image source: Official Raspberrypi website. © Respective owner. Used for documentation purposes.*
 
