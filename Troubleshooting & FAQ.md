@@ -133,9 +133,44 @@
 
 ---
 
+## Troubleshooting Checklist
+
+Before requesting support, verify the following:
+
+- [ ] Battery is fully charged
+- [ ] Power switch is turned on
+- [ ] All cables are securely connected
+- [ ] Raspberry Pi has booted successfully
+- [ ] Wi-Fi connection is active
+- [ ] Motors and servos are properly connected.
+- [ ] Camera and sensors are functioning correctly.
+- [ ] Required software packages are installed.
+- [ ] Robot software is up to date
+- [ ] System has been restarted after configuration changes.
+
+---
 
 
+## Maintenance Recommendations
 
+- Keep the battery charged and store it safely.
+- Clean the camera lens and sensors regularly.
+- Inspect wiring and connectors periodically.
+- Shut down the operating system properly before disconnecting power.
+- Back up important project files before making major changes.
+- Keep the robot in a clean and dry environment.
+
+---
+
+## Still Need Help?
+
+If the issue cannot be resolved:
+
+1. Record the error message or observed behavior.
+2. Note the software version and hardware configuration.
+3. Check cable connections and power status.
+4. Reproduce the issue and document the steps.
+5. Contact the project maintainers or open an issue with detailed information.
 
 
 
