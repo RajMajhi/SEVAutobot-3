@@ -1,5 +1,6 @@
 # Software Setup
 <img width="663" height="322" alt="Screenshot 2026-06-24 122349" src="https://github.com/user-attachments/assets/e0c4a8ee-53a1-432a-9f80-bdbaf85c3dee" />
+
 ## Operating System
 
 The TurboPi platform is configured with:
