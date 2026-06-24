@@ -1,1 +1,50 @@
+### Robot does not power on 
+
+**Possible causes**
+- Battery is not charged 
+- Power switch is turned off
+- Loose Power connection
+
+**Solution**
+- Charge the battery fully
+- Check that the battery is properly installed.
+- Verify that all power are connected securely connected.
+
+---
+
+### Raspberry Pi does not boot 
+- Corrupted or improperly inserted the SDcard
+- Insufficient power supply
+
+---
+
+### Camera is not detected 
+
+**Possible Causes**
+- Camera installization failure
+- Software configuration issue 
+
+**Solution**
+- Check
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
