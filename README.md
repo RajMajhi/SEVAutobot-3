@@ -86,7 +86,7 @@ Camera → Vision Processing → Decision Module → Motion Controller → Motor
  <img width="700" height="550" alt="IMG_20260623_181037 jpg" src="https://github.com/user-attachments/assets/fa23c59b-1ace-4b0d-b966-5e4ff42b6db6" />
  
 
-3. Connect via SSH -> ssh pi@192.168.0.102 (Refer Software Setup.md)
+3. Connect via SSH -> ssh pi@10.23.11.211 (Refer Software Setup.md)
     
 5. Check if Pendrive is connected
 6. Verify camera connection.
